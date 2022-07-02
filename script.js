@@ -43,7 +43,7 @@ function loadJson(){
     request.onerror = function () {
       reject(request.response);
     };
-    request.open("get", "/>>>/voeux/data.json", true);
+    request.open("get", "data.json", true);
     request.send();
   })
 }
